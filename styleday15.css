@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#nav{
+    display: flex;
+    justify-content:space-between;
+    height: 12%;
+    width: 100%;
+}
+#navtext{
+    display: flex;
+    justify-content:space-between;
+    height: 100%;
+    width: 20%;
+    
+}
+.icon{
+margin-right: 30px; 
+margin-top: 30px;
+/* border: 1px solid black;  */
+} 
+#nav h2{
+    text-transform: capitalize;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.h5text{
+    text-transform: capitalize;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#photu1{
+    position: absolute;
+    top: 19%;
+    left: 5%;
+    height: 75%;
+    width: 30%;
+    background-color: aqua;
+    background-image: url("naeim-jafari-laobUPA4jR8-unsplash.jpg");
+    background-size: cover;
+}
+#photu2{
+    position: absolute;
+    top: 31%;
+    left: 65%;
+    height: 66%;
+    width: 25%;
+    background-color: aqua;
+    background-image: url("hong-nguyen-FO-zQd7Wqio-unsplash.jpg");
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    text-transform: capitalize;
+    font-family: ;
+    top: 66%;
+    left: 25%;
+    font-size: 70px;
+    font-weight: 100;
+}
+#orangecircle{
+    display: flex;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 580px;
+    height: 100px;
+    width: 100px; 
+}
+#circle1{
+    height: 90px;
+    width: 90px;  
+    border-radius: 50%;
+    background-color: rgb(215, 86, 11);
+}
+#text1{
+    position: absolute;
+    margin-top: 25px; 
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+#orangecircle h2{
+    text-transform: uppercase;
+    font-weight: 100;
+ }
+ #blackcircle{
+    display: flex;
+    position: absolute;
+    top: 11%;
+    left: 81%;
+    /* margin-top: 130px;
+    margin-left: 580px; */
+    height: 100px;
+    width: 100px; 
+}
+#circle2{
+    
+    margin-left: 10px;
+    height: 70px;
+    width: 70px;  
+    border-radius: 50%;
+    background-color: black;
+}
+.text2{
+    display: flex;
+    position: absolute;
+    margin-top: 25px; 
+    letter-spacing: 7px; 
+     
+}
+#p{
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-weight: 800;
+ }
+ #roje{
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+ }
+#cts{
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-weight: 800;
+ }
+
+ #horizo-text{
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    top: 84%;
+    left: 48%;
+    width: 200px;
+}
+#horizo-text h5{
+    font-family: sans-serif;
+    text-transform: capitalize;
+ }
+
+#vertical-text{
+    position:absolute;
+    top: 47%;
+    left: 92%;
+    height: 200px;
+}
+#vertical-text h5{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-orientation:mixed;
+    writing-mode: vertical-rl;
+ }
